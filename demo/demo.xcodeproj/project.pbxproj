@@ -13,6 +13,7 @@
 		9A72B9611D16EA9100415D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A72B95F1D16EA9100415D62 /* Main.storyboard */; };
 		9A72B9631D16EA9100415D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A72B9621D16EA9100415D62 /* Assets.xcassets */; };
 		9A72B9661D16EA9100415D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A72B9641D16EA9100415D62 /* LaunchScreen.storyboard */; };
+		9A72B96F1D16EB4900415D62 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A72B96E1D16EB4900415D62 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9A72B9621D16EA9100415D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A72B9651D16EA9100415D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A72B9671D16EA9100415D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A72B96D1D16EB4900415D62 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		9A72B96E1D16EB4900415D62 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				9A72B95A1D16EA9100415D62 /* AppDelegate.m */,
 				9A72B95C1D16EA9100415D62 /* ViewController.h */,
 				9A72B95D1D16EA9100415D62 /* ViewController.m */,
+				9A72B96D1D16EB4900415D62 /* TableViewController.h */,
+				9A72B96E1D16EB4900415D62 /* TableViewController.m */,
 				9A72B95F1D16EA9100415D62 /* Main.storyboard */,
 				9A72B9621D16EA9100415D62 /* Assets.xcassets */,
 				9A72B9641D16EA9100415D62 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				9A72B95E1D16EA9100415D62 /* ViewController.m in Sources */,
 				9A72B95B1D16EA9100415D62 /* AppDelegate.m in Sources */,
 				9A72B9581D16EA9100415D62 /* main.m in Sources */,
+				9A72B96F1D16EB4900415D62 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
