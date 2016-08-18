@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A2E26761CDEE8A900243517 /* picks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A2E26751CDEE8A900243517 /* picks.plist */; };
+		9A6233FF1CFB4E7100A2BDD6 /* HYNAboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233D81CFB4E7100A2BDD6 /* HYNAboutTableViewController.m */; };
+		9A6234001CFB4E7100A2BDD6 /* HYNInstructionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233DA1CFB4E7100A2BDD6 /* HYNInstructionController.m */; };
+		9A6234011CFB4E7100A2BDD6 /* HYNProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233DC1CFB4E7100A2BDD6 /* HYNProductController.m */; };
+		9A6234021CFB4E7100A2BDD6 /* HYNLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233DF1CFB4E7100A2BDD6 /* HYNLogInViewController.m */; };
+		9A6234031CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233E21CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.m */; };
+		9A6234041CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233E41CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.m */; };
+		9A6234051CFB4E7100A2BDD6 /* HYNChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233E61CFB4E7100A2BDD6 /* HYNChangePasswordViewController.m */; };
+		9A6234061CFB4E7100A2BDD6 /* HYNManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233E81CFB4E7100A2BDD6 /* HYNManagerController.m */; };
+		9A6234071CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233EA1CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.m */; };
+		9A6234081CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233EC1CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.m */; };
+		9A6234091CFB4E7100A2BDD6 /* HYNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233EF1CFB4E7100A2BDD6 /* HYNNavigationController.m */; };
+		9A62340A1CFB4E7100A2BDD6 /* HYNApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233F21CFB4E7100A2BDD6 /* HYNApplicationViewController.m */; };
+		9A62340B1CFB4E7100A2BDD6 /* HYNConfirmController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233F41CFB4E7100A2BDD6 /* HYNConfirmController.m */; };
+		9A62340C1CFB4E7100A2BDD6 /* HYNDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233F61CFB4E7100A2BDD6 /* HYNDetailsController.m */; };
+		9A62340D1CFB4E7100A2BDD6 /* HYNReceiptFillInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233F81CFB4E7100A2BDD6 /* HYNReceiptFillInController.m */; };
+		9A62340E1CFB4E7100A2BDD6 /* HYNReceiptTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233FA1CFB4E7100A2BDD6 /* HYNReceiptTableViewController.m */; };
+		9A62340F1CFB4E7100A2BDD6 /* HYNResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233FC1CFB4E7100A2BDD6 /* HYNResultTableViewController.m */; };
+		9A6234101CFB4E7100A2BDD6 /* HYNTeacherController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6233FE1CFB4E7100A2BDD6 /* HYNTeacherController.m */; };
+		9A6234161CFB4E7800A2BDD6 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234131CFB4E7800A2BDD6 /* Course.m */; };
+		9A6234171CFB4E7800A2BDD6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234151CFB4E7800A2BDD6 /* User.m */; };
+		9A6234261CFB4E8A00A2BDD6 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62341A1CFB4E8900A2BDD6 /* About.storyboard */; };
+		9A6234271CFB4E8A00A2BDD6 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62341C1CFB4E8900A2BDD6 /* LogIn.storyboard */; };
+		9A6234281CFB4E8A00A2BDD6 /* ApplicationAuditFillIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62341E1CFB4E8900A2BDD6 /* ApplicationAuditFillIn.storyboard */; };
+		9A6234291CFB4E8A00A2BDD6 /* FillInReceipt.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A62341F1CFB4E8900A2BDD6 /* FillInReceipt.storyboard */; };
+		9A62342A1CFB4E8A00A2BDD6 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234201CFB4E8900A2BDD6 /* Manager.storyboard */; };
+		9A62342B1CFB4E8A00A2BDD6 /* ReceiptAuditFillIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234211CFB4E8900A2BDD6 /* ReceiptAuditFillIn.storyboard */; };
+		9A62342C1CFB4E8A00A2BDD6 /* Confirm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234231CFB4E8A00A2BDD6 /* Confirm.storyboard */; };
+		9A62342D1CFB4E8A00A2BDD6 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234241CFB4E8A00A2BDD6 /* Detail.storyboard */; };
+		9A62342E1CFB4E8A00A2BDD6 /* Teacher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234251CFB4E8A00A2BDD6 /* Teacher.storyboard */; };
+		9A6234381CFB4E9300A2BDD6 /* HYNFileService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234311CFB4E9300A2BDD6 /* HYNFileService.m */; };
+		9A6234391CFB4E9300A2BDD6 /* HYNNetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234331CFB4E9300A2BDD6 /* HYNNetWorkTool.m */; };
+		9A62343A1CFB4E9300A2BDD6 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234351CFB4E9300A2BDD6 /* NSArray+Log.m */; };
+		9A62343B1CFB4E9300A2BDD6 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234371CFB4E9300A2BDD6 /* NSString+Regex.m */; };
+		9A62345E1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62343F1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.m */; };
+		9A62345F1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234401CFB4E9A00A2BDD6 /* HYNAboutHeaderView.xib */; };
+		9A6234601CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234431CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.m */; };
+		9A6234611CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234441CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.xib */; };
+		9A6234621CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234461CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.m */; };
+		9A6234631CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234471CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.xib */; };
+		9A6234641CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234491CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.m */; };
+		9A6234651CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A62344A1CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.xib */; };
+		9A6234661CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62344C1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.m */; };
+		9A6234671CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A62344D1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.xib */; };
+		9A6234681CFB4E9A00A2BDD6 /* HYNDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234501CFB4E9A00A2BDD6 /* HYNDetailsCell.m */; };
+		9A6234691CFB4E9A00A2BDD6 /* HYNDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234511CFB4E9A00A2BDD6 /* HYNDetailsCell.xib */; };
+		9A62346A1CFB4E9A00A2BDD6 /* HYNReceiptCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234531CFB4E9A00A2BDD6 /* HYNReceiptCell.m */; };
+		9A62346B1CFB4E9A00A2BDD6 /* HYNReceiptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234541CFB4E9A00A2BDD6 /* HYNReceiptCell.xib */; };
+		9A62346C1CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234561CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.m */; };
+		9A62346D1CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6234571CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.xib */; };
+		9A62346E1CFB4E9A00A2BDD6 /* HYNResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6234591CFB4E9A00A2BDD6 /* HYNResultCell.m */; };
+		9A62346F1CFB4E9B00A2BDD6 /* HYNResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A62345A1CFB4E9A00A2BDD6 /* HYNResultCell.xib */; };
+		9A6234701CFB4E9B00A2BDD6 /* HYNResultHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62345C1CFB4E9A00A2BDD6 /* HYNResultHeaderView.m */; };
+		9A6234711CFB4E9B00A2BDD6 /* HYNResultHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A62345D1CFB4E9A00A2BDD6 /* HYNResultHeaderView.xib */; };
+		9AF5E7251CA14BD60022CA85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5E7241CA14BD60022CA85 /* main.m */; };
+		9AF5E7281CA14BD60022CA85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF5E7271CA14BD60022CA85 /* AppDelegate.m */; };
+		9AF5E7331CA14BD60022CA85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF5E7311CA14BD60022CA85 /* LaunchScreen.storyboard */; };
+		9AFB62CE1CF16ABA00566D4B /* 使用说明.html in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB62CD1CF16ABA00566D4B /* 使用说明.html */; };
+		9AFB62D51CF1770B00566D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFB62D41CF1770B00566D4B /* Assets.xcassets */; };
+		F6184537869D88B55272D9DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BF9BDB219F24FB4929B1DA /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35AA9F970A40D6B1C2657461 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		63BF9BDB219F24FB4929B1DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2E26751CDEE8A900243517 /* picks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = picks.plist; sourceTree = "<group>"; };
+		9A6233D71CFB4E7100A2BDD6 /* HYNAboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNAboutTableViewController.h; sourceTree = "<group>"; };
+		9A6233D81CFB4E7100A2BDD6 /* HYNAboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNAboutTableViewController.m; sourceTree = "<group>"; };
+		9A6233D91CFB4E7100A2BDD6 /* HYNInstructionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNInstructionController.h; sourceTree = "<group>"; };
+		9A6233DA1CFB4E7100A2BDD6 /* HYNInstructionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNInstructionController.m; sourceTree = "<group>"; };
+		9A6233DB1CFB4E7100A2BDD6 /* HYNProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNProductController.h; sourceTree = "<group>"; };
+		9A6233DC1CFB4E7100A2BDD6 /* HYNProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNProductController.m; sourceTree = "<group>"; };
+		9A6233DE1CFB4E7100A2BDD6 /* HYNLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNLogInViewController.h; sourceTree = "<group>"; };
+		9A6233DF1CFB4E7100A2BDD6 /* HYNLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNLogInViewController.m; sourceTree = "<group>"; };
+		9A6233E11CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNApplicationAuditFillInController.h; sourceTree = "<group>"; };
+		9A6233E21CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNApplicationAuditFillInController.m; sourceTree = "<group>"; };
+		9A6233E31CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNApplicationAuditTableViewController.h; sourceTree = "<group>"; };
+		9A6233E41CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNApplicationAuditTableViewController.m; sourceTree = "<group>"; };
+		9A6233E51CFB4E7100A2BDD6 /* HYNChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNChangePasswordViewController.h; sourceTree = "<group>"; };
+		9A6233E61CFB4E7100A2BDD6 /* HYNChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNChangePasswordViewController.m; sourceTree = "<group>"; };
+		9A6233E71CFB4E7100A2BDD6 /* HYNManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNManagerController.h; sourceTree = "<group>"; };
+		9A6233E81CFB4E7100A2BDD6 /* HYNManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNManagerController.m; sourceTree = "<group>"; };
+		9A6233E91CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptAuditFillInController.h; sourceTree = "<group>"; };
+		9A6233EA1CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptAuditFillInController.m; sourceTree = "<group>"; };
+		9A6233EB1CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptAuditTableViewController.h; sourceTree = "<group>"; };
+		9A6233EC1CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptAuditTableViewController.m; sourceTree = "<group>"; };
+		9A6233EE1CFB4E7100A2BDD6 /* HYNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNNavigationController.h; sourceTree = "<group>"; };
+		9A6233EF1CFB4E7100A2BDD6 /* HYNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNNavigationController.m; sourceTree = "<group>"; };
+		9A6233F11CFB4E7100A2BDD6 /* HYNApplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNApplicationViewController.h; sourceTree = "<group>"; };
+		9A6233F21CFB4E7100A2BDD6 /* HYNApplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNApplicationViewController.m; sourceTree = "<group>"; };
+		9A6233F31CFB4E7100A2BDD6 /* HYNConfirmController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNConfirmController.h; sourceTree = "<group>"; };
+		9A6233F41CFB4E7100A2BDD6 /* HYNConfirmController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNConfirmController.m; sourceTree = "<group>"; };
+		9A6233F51CFB4E7100A2BDD6 /* HYNDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNDetailsController.h; sourceTree = "<group>"; };
+		9A6233F61CFB4E7100A2BDD6 /* HYNDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNDetailsController.m; sourceTree = "<group>"; };
+		9A6233F71CFB4E7100A2BDD6 /* HYNReceiptFillInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptFillInController.h; sourceTree = "<group>"; };
+		9A6233F81CFB4E7100A2BDD6 /* HYNReceiptFillInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptFillInController.m; sourceTree = "<group>"; };
+		9A6233F91CFB4E7100A2BDD6 /* HYNReceiptTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptTableViewController.h; sourceTree = "<group>"; };
+		9A6233FA1CFB4E7100A2BDD6 /* HYNReceiptTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptTableViewController.m; sourceTree = "<group>"; };
+		9A6233FB1CFB4E7100A2BDD6 /* HYNResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNResultTableViewController.h; sourceTree = "<group>"; };
+		9A6233FC1CFB4E7100A2BDD6 /* HYNResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNResultTableViewController.m; sourceTree = "<group>"; };
+		9A6233FD1CFB4E7100A2BDD6 /* HYNTeacherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNTeacherController.h; sourceTree = "<group>"; };
+		9A6233FE1CFB4E7100A2BDD6 /* HYNTeacherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNTeacherController.m; sourceTree = "<group>"; };
+		9A6234121CFB4E7800A2BDD6 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		9A6234131CFB4E7800A2BDD6 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		9A6234141CFB4E7800A2BDD6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9A6234151CFB4E7800A2BDD6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9A62341A1CFB4E8900A2BDD6 /* About.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = About.storyboard; sourceTree = "<group>"; };
+		9A62341C1CFB4E8900A2BDD6 /* LogIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		9A62341E1CFB4E8900A2BDD6 /* ApplicationAuditFillIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ApplicationAuditFillIn.storyboard; sourceTree = "<group>"; };
+		9A62341F1CFB4E8900A2BDD6 /* FillInReceipt.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FillInReceipt.storyboard; path = ../Manager/FillInReceipt.storyboard; sourceTree = "<group>"; };
+		9A6234201CFB4E8900A2BDD6 /* Manager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		9A6234211CFB4E8900A2BDD6 /* ReceiptAuditFillIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReceiptAuditFillIn.storyboard; sourceTree = "<group>"; };
+		9A6234231CFB4E8A00A2BDD6 /* Confirm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Confirm.storyboard; sourceTree = "<group>"; };
+		9A6234241CFB4E8A00A2BDD6 /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		9A6234251CFB4E8A00A2BDD6 /* Teacher.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Teacher.storyboard; sourceTree = "<group>"; };
+		9A6234301CFB4E9300A2BDD6 /* HYNFileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNFileService.h; sourceTree = "<group>"; };
+		9A6234311CFB4E9300A2BDD6 /* HYNFileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNFileService.m; sourceTree = "<group>"; };
+		9A6234321CFB4E9300A2BDD6 /* HYNNetWorkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNNetWorkTool.h; sourceTree = "<group>"; };
+		9A6234331CFB4E9300A2BDD6 /* HYNNetWorkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNNetWorkTool.m; sourceTree = "<group>"; };
+		9A6234341CFB4E9300A2BDD6 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		9A6234351CFB4E9300A2BDD6 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		9A6234361CFB4E9300A2BDD6 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		9A6234371CFB4E9300A2BDD6 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		9A62343E1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNAboutHeaderView.h; sourceTree = "<group>"; };
+		9A62343F1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNAboutHeaderView.m; sourceTree = "<group>"; };
+		9A6234401CFB4E9A00A2BDD6 /* HYNAboutHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNAboutHeaderView.xib; sourceTree = "<group>"; };
+		9A6234421CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNApplicationAuditCell.h; sourceTree = "<group>"; };
+		9A6234431CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNApplicationAuditCell.m; sourceTree = "<group>"; };
+		9A6234441CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNApplicationAuditCell.xib; sourceTree = "<group>"; };
+		9A6234451CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNApplicationAuditHeaderView.h; sourceTree = "<group>"; };
+		9A6234461CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNApplicationAuditHeaderView.m; sourceTree = "<group>"; };
+		9A6234471CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNApplicationAuditHeaderView.xib; sourceTree = "<group>"; };
+		9A6234481CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptAuditCell.h; sourceTree = "<group>"; };
+		9A6234491CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptAuditCell.m; sourceTree = "<group>"; };
+		9A62344A1CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNReceiptAuditCell.xib; sourceTree = "<group>"; };
+		9A62344B1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptAuditHeaderView.h; sourceTree = "<group>"; };
+		9A62344C1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptAuditHeaderView.m; sourceTree = "<group>"; };
+		9A62344D1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNReceiptAuditHeaderView.xib; sourceTree = "<group>"; };
+		9A62344F1CFB4E9A00A2BDD6 /* HYNDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNDetailsCell.h; sourceTree = "<group>"; };
+		9A6234501CFB4E9A00A2BDD6 /* HYNDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNDetailsCell.m; sourceTree = "<group>"; };
+		9A6234511CFB4E9A00A2BDD6 /* HYNDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNDetailsCell.xib; sourceTree = "<group>"; };
+		9A6234521CFB4E9A00A2BDD6 /* HYNReceiptCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptCell.h; sourceTree = "<group>"; };
+		9A6234531CFB4E9A00A2BDD6 /* HYNReceiptCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptCell.m; sourceTree = "<group>"; };
+		9A6234541CFB4E9A00A2BDD6 /* HYNReceiptCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNReceiptCell.xib; sourceTree = "<group>"; };
+		9A6234551CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNReceiptHeaderView.h; sourceTree = "<group>"; };
+		9A6234561CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNReceiptHeaderView.m; sourceTree = "<group>"; };
+		9A6234571CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNReceiptHeaderView.xib; sourceTree = "<group>"; };
+		9A6234581CFB4E9A00A2BDD6 /* HYNResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNResultCell.h; sourceTree = "<group>"; };
+		9A6234591CFB4E9A00A2BDD6 /* HYNResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNResultCell.m; sourceTree = "<group>"; };
+		9A62345A1CFB4E9A00A2BDD6 /* HYNResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNResultCell.xib; sourceTree = "<group>"; };
+		9A62345B1CFB4E9A00A2BDD6 /* HYNResultHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYNResultHeaderView.h; sourceTree = "<group>"; };
+		9A62345C1CFB4E9A00A2BDD6 /* HYNResultHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNResultHeaderView.m; sourceTree = "<group>"; };
+		9A62345D1CFB4E9A00A2BDD6 /* HYNResultHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNResultHeaderView.xib; sourceTree = "<group>"; };
+		9AC6C6B11CEDD13000E8F618 /* URLPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLPrefixHeader.pch; sourceTree = "<group>"; };
+		9AF5E7201CA14BD60022CA85 /* 掌上调课.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "掌上调课.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF5E7241CA14BD60022CA85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AF5E7261CA14BD60022CA85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AF5E7271CA14BD60022CA85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AF5E7321CA14BD60022CA85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF5E7341CA14BD60022CA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFB62CD1CF16ABA00566D4B /* 使用说明.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "使用说明.html"; sourceTree = "<group>"; };
+		9AFB62D41CF1770B00566D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA6CA733E1DE2065043B2B9D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF5E71D1CA14BD60022CA85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6184537869D88B55272D9DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41BD73C7C39BAF9F25353F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35AA9F970A40D6B1C2657461 /* Pods.debug.xcconfig */,
+				EA6CA733E1DE2065043B2B9D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7301843F80C4F1D837778FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9BDB219F24FB4929B1DA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A6233D51CFB4E7100A2BDD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233DD1CFB4E7100A2BDD6 /* LogIn */,
+				9A6233ED1CFB4E7100A2BDD6 /* Navigation */,
+				9A6233F01CFB4E7100A2BDD6 /* Teacher */,
+				9A6233E01CFB4E7100A2BDD6 /* Manager */,
+				9A6233D61CFB4E7100A2BDD6 /* About */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A6233D61CFB4E7100A2BDD6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233D71CFB4E7100A2BDD6 /* HYNAboutTableViewController.h */,
+				9A6233D81CFB4E7100A2BDD6 /* HYNAboutTableViewController.m */,
+				9A6233D91CFB4E7100A2BDD6 /* HYNInstructionController.h */,
+				9A6233DA1CFB4E7100A2BDD6 /* HYNInstructionController.m */,
+				9A6233DB1CFB4E7100A2BDD6 /* HYNProductController.h */,
+				9A6233DC1CFB4E7100A2BDD6 /* HYNProductController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		9A6233DD1CFB4E7100A2BDD6 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233DE1CFB4E7100A2BDD6 /* HYNLogInViewController.h */,
+				9A6233DF1CFB4E7100A2BDD6 /* HYNLogInViewController.m */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		9A6233E01CFB4E7100A2BDD6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233E71CFB4E7100A2BDD6 /* HYNManagerController.h */,
+				9A6233E81CFB4E7100A2BDD6 /* HYNManagerController.m */,
+				9A6233E31CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.h */,
+				9A6233E41CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.m */,
+				9A6233E11CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.h */,
+				9A6233E21CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.m */,
+				9A6233EB1CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.h */,
+				9A6233EC1CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.m */,
+				9A6233E91CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.h */,
+				9A6233EA1CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.m */,
+				9A6233E51CFB4E7100A2BDD6 /* HYNChangePasswordViewController.h */,
+				9A6233E61CFB4E7100A2BDD6 /* HYNChangePasswordViewController.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9A6233ED1CFB4E7100A2BDD6 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233EE1CFB4E7100A2BDD6 /* HYNNavigationController.h */,
+				9A6233EF1CFB4E7100A2BDD6 /* HYNNavigationController.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9A6233F01CFB4E7100A2BDD6 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				9A6233FD1CFB4E7100A2BDD6 /* HYNTeacherController.h */,
+				9A6233FE1CFB4E7100A2BDD6 /* HYNTeacherController.m */,
+				9A6233F11CFB4E7100A2BDD6 /* HYNApplicationViewController.h */,
+				9A6233F21CFB4E7100A2BDD6 /* HYNApplicationViewController.m */,
+				9A6233F31CFB4E7100A2BDD6 /* HYNConfirmController.h */,
+				9A6233F41CFB4E7100A2BDD6 /* HYNConfirmController.m */,
+				9A6233FB1CFB4E7100A2BDD6 /* HYNResultTableViewController.h */,
+				9A6233FC1CFB4E7100A2BDD6 /* HYNResultTableViewController.m */,
+				9A6233F51CFB4E7100A2BDD6 /* HYNDetailsController.h */,
+				9A6233F61CFB4E7100A2BDD6 /* HYNDetailsController.m */,
+				9A6233F71CFB4E7100A2BDD6 /* HYNReceiptFillInController.h */,
+				9A6233FA1CFB4E7100A2BDD6 /* HYNReceiptTableViewController.m */,
+				9A6233F91CFB4E7100A2BDD6 /* HYNReceiptTableViewController.h */,
+				9A6233F81CFB4E7100A2BDD6 /* HYNReceiptFillInController.m */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		9A6234111CFB4E7800A2BDD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A6234121CFB4E7800A2BDD6 /* Course.h */,
+				9A6234131CFB4E7800A2BDD6 /* Course.m */,
+				9A6234141CFB4E7800A2BDD6 /* User.h */,
+				9A6234151CFB4E7800A2BDD6 /* User.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A6234181CFB4E8900A2BDD6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9A62341B1CFB4E8900A2BDD6 /* LogIn */,
+				9A6234221CFB4E8900A2BDD6 /* Teacher */,
+				9A62341D1CFB4E8900A2BDD6 /* Manager */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9A6234191CFB4E8900A2BDD6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				9A62341A1CFB4E8900A2BDD6 /* About.storyboard */,
+			);
+			name = About;
+			path = Storyboard/About;
+			sourceTree = "<group>";
+		};
+		9A62341B1CFB4E8900A2BDD6 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				9A62341C1CFB4E8900A2BDD6 /* LogIn.storyboard */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		9A62341D1CFB4E8900A2BDD6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A6234201CFB4E8900A2BDD6 /* Manager.storyboard */,
+				9A62341E1CFB4E8900A2BDD6 /* ApplicationAuditFillIn.storyboard */,
+				9A6234211CFB4E8900A2BDD6 /* ReceiptAuditFillIn.storyboard */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9A6234221CFB4E8900A2BDD6 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				9A6234251CFB4E8A00A2BDD6 /* Teacher.storyboard */,
+				9A6234231CFB4E8A00A2BDD6 /* Confirm.storyboard */,
+				9A6234241CFB4E8A00A2BDD6 /* Detail.storyboard */,
+				9A62341F1CFB4E8900A2BDD6 /* FillInReceipt.storyboard */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		9A62342F1CFB4E9300A2BDD6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9A6234301CFB4E9300A2BDD6 /* HYNFileService.h */,
+				9A6234311CFB4E9300A2BDD6 /* HYNFileService.m */,
+				9A6234321CFB4E9300A2BDD6 /* HYNNetWorkTool.h */,
+				9A6234331CFB4E9300A2BDD6 /* HYNNetWorkTool.m */,
+				9A6234341CFB4E9300A2BDD6 /* NSArray+Log.h */,
+				9A6234351CFB4E9300A2BDD6 /* NSArray+Log.m */,
+				9A6234361CFB4E9300A2BDD6 /* NSString+Regex.h */,
+				9A6234371CFB4E9300A2BDD6 /* NSString+Regex.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9A62343C1CFB4E9A00A2BDD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A62343D1CFB4E9A00A2BDD6 /* About */,
+				9A62344E1CFB4E9A00A2BDD6 /* Teacher */,
+				9A6234411CFB4E9A00A2BDD6 /* Manager */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A62343D1CFB4E9A00A2BDD6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				9A62343E1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.h */,
+				9A62343F1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.m */,
+				9A6234401CFB4E9A00A2BDD6 /* HYNAboutHeaderView.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		9A6234411CFB4E9A00A2BDD6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9A6234421CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.h */,
+				9A6234431CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.m */,
+				9A6234441CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.xib */,
+				9A6234451CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.h */,
+				9A6234461CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.m */,
+				9A6234471CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.xib */,
+				9A6234481CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.h */,
+				9A6234491CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.m */,
+				9A62344A1CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.xib */,
+				9A62344B1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.h */,
+				9A62344C1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.m */,
+				9A62344D1CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.xib */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9A62344E1CFB4E9A00A2BDD6 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				9A62344F1CFB4E9A00A2BDD6 /* HYNDetailsCell.h */,
+				9A6234501CFB4E9A00A2BDD6 /* HYNDetailsCell.m */,
+				9A6234511CFB4E9A00A2BDD6 /* HYNDetailsCell.xib */,
+				9A6234521CFB4E9A00A2BDD6 /* HYNReceiptCell.h */,
+				9A6234531CFB4E9A00A2BDD6 /* HYNReceiptCell.m */,
+				9A6234541CFB4E9A00A2BDD6 /* HYNReceiptCell.xib */,
+				9A6234551CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.h */,
+				9A6234561CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.m */,
+				9A6234571CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.xib */,
+				9A6234581CFB4E9A00A2BDD6 /* HYNResultCell.h */,
+				9A6234591CFB4E9A00A2BDD6 /* HYNResultCell.m */,
+				9A62345A1CFB4E9A00A2BDD6 /* HYNResultCell.xib */,
+				9A62345B1CFB4E9A00A2BDD6 /* HYNResultHeaderView.h */,
+				9A62345C1CFB4E9A00A2BDD6 /* HYNResultHeaderView.m */,
+				9A62345D1CFB4E9A00A2BDD6 /* HYNResultHeaderView.xib */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		9AF5E7171CA14BD60022CA85 = {
+			isa = PBXGroup;
+			children = (
+				9AF5E7221CA14BD60022CA85 /* 掌上调课 */,
+				9AF5E7211CA14BD60022CA85 /* Products */,
+				41BD73C7C39BAF9F25353F83 /* Pods */,
+				7301843F80C4F1D837778FD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF5E7211CA14BD60022CA85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5E7201CA14BD60022CA85 /* 掌上调课.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF5E7221CA14BD60022CA85 /* 掌上调课 */ = {
+			isa = PBXGroup;
+			children = (
+				9A62342F1CFB4E9300A2BDD6 /* Tools */,
+				9A6234111CFB4E7800A2BDD6 /* Model */,
+				9A62343C1CFB4E9A00A2BDD6 /* View */,
+				9A6233D51CFB4E7100A2BDD6 /* Controller */,
+				9A6234181CFB4E8900A2BDD6 /* Storyboard */,
+				9A6234191CFB4E8900A2BDD6 /* About */,
+				9AF5E7231CA14BD60022CA85 /* Supporting Files */,
+			);
+			path = "掌上调课";
+			sourceTree = "<group>";
+		};
+		9AF5E7231CA14BD60022CA85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AF5E7341CA14BD60022CA85 /* Info.plist */,
+				9AF5E7241CA14BD60022CA85 /* main.m */,
+				9AF5E7261CA14BD60022CA85 /* AppDelegate.h */,
+				9AF5E7271CA14BD60022CA85 /* AppDelegate.m */,
+				9AFB62D41CF1770B00566D4B /* Assets.xcassets */,
+				9AF5E7311CA14BD60022CA85 /* LaunchScreen.storyboard */,
+				9AC6C6B11CEDD13000E8F618 /* URLPrefixHeader.pch */,
+				9A2E26751CDEE8A900243517 /* picks.plist */,
+				9AFB62CD1CF16ABA00566D4B /* 使用说明.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF5E71F1CA14BD60022CA85 /* 掌上调课 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF5E7371CA14BD60022CA85 /* Build configuration list for PBXNativeTarget "掌上调课" */;
+			buildPhases = (
+				925666F96C1CBF64CD06B722 /* Check Pods Manifest.lock */,
+				9AF5E71C1CA14BD60022CA85 /* Sources */,
+				9AF5E71D1CA14BD60022CA85 /* Frameworks */,
+				9AF5E71E1CA14BD60022CA85 /* Resources */,
+				8A8B3DF0185CF821B5C20D81 /* Embed Pods Frameworks */,
+				6BA7DFA11AA334084F794FD2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "掌上调课";
+			productName = "掌上调课";
+			productReference = 9AF5E7201CA14BD60022CA85 /* 掌上调课.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF5E7181CA14BD60022CA85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黄亚男";
+				TargetAttributes = {
+					9AF5E71F1CA14BD60022CA85 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3RWME898AZ;
+					};
+				};
+			};
+			buildConfigurationList = 9AF5E71B1CA14BD60022CA85 /* Build configuration list for PBXProject "掌上调课" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF5E7171CA14BD60022CA85;
+			productRefGroup = 9AF5E7211CA14BD60022CA85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF5E71F1CA14BD60022CA85 /* 掌上调课 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF5E71E1CA14BD60022CA85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A62346D1CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.xib in Resources */,
+				9A6234671CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.xib in Resources */,
+				9A6234631CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.xib in Resources */,
+				9A62342C1CFB4E8A00A2BDD6 /* Confirm.storyboard in Resources */,
+				9AF5E7331CA14BD60022CA85 /* LaunchScreen.storyboard in Resources */,
+				9A6234611CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.xib in Resources */,
+				9A6234291CFB4E8A00A2BDD6 /* FillInReceipt.storyboard in Resources */,
+				9A6234261CFB4E8A00A2BDD6 /* About.storyboard in Resources */,
+				9A6234711CFB4E9B00A2BDD6 /* HYNResultHeaderView.xib in Resources */,
+				9AFB62D51CF1770B00566D4B /* Assets.xcassets in Resources */,
+				9AFB62CE1CF16ABA00566D4B /* 使用说明.html in Resources */,
+				9A62342B1CFB4E8A00A2BDD6 /* ReceiptAuditFillIn.storyboard in Resources */,
+				9A6234271CFB4E8A00A2BDD6 /* LogIn.storyboard in Resources */,
+				9A6234651CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.xib in Resources */,
+				9A2E26761CDEE8A900243517 /* picks.plist in Resources */,
+				9A62342E1CFB4E8A00A2BDD6 /* Teacher.storyboard in Resources */,
+				9A62346B1CFB4E9A00A2BDD6 /* HYNReceiptCell.xib in Resources */,
+				9A62346F1CFB4E9B00A2BDD6 /* HYNResultCell.xib in Resources */,
+				9A6234281CFB4E8A00A2BDD6 /* ApplicationAuditFillIn.storyboard in Resources */,
+				9A62342A1CFB4E8A00A2BDD6 /* Manager.storyboard in Resources */,
+				9A62342D1CFB4E8A00A2BDD6 /* Detail.storyboard in Resources */,
+				9A6234691CFB4E9A00A2BDD6 /* HYNDetailsCell.xib in Resources */,
+				9A62345F1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BA7DFA11AA334084F794FD2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8B3DF0185CF821B5C20D81 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925666F96C1CBF64CD06B722 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF5E71C1CA14BD60022CA85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6234681CFB4E9A00A2BDD6 /* HYNDetailsCell.m in Sources */,
+				9A6234071CFB4E7100A2BDD6 /* HYNReceiptAuditFillInController.m in Sources */,
+				9A62340F1CFB4E7100A2BDD6 /* HYNResultTableViewController.m in Sources */,
+				9A6234641CFB4E9A00A2BDD6 /* HYNReceiptAuditCell.m in Sources */,
+				9A6234601CFB4E9A00A2BDD6 /* HYNApplicationAuditCell.m in Sources */,
+				9A6234391CFB4E9300A2BDD6 /* HYNNetWorkTool.m in Sources */,
+				9A6234051CFB4E7100A2BDD6 /* HYNChangePasswordViewController.m in Sources */,
+				9A62340E1CFB4E7100A2BDD6 /* HYNReceiptTableViewController.m in Sources */,
+				9A6234381CFB4E9300A2BDD6 /* HYNFileService.m in Sources */,
+				9A62346E1CFB4E9A00A2BDD6 /* HYNResultCell.m in Sources */,
+				9A6234061CFB4E7100A2BDD6 /* HYNManagerController.m in Sources */,
+				9A62340A1CFB4E7100A2BDD6 /* HYNApplicationViewController.m in Sources */,
+				9A6234171CFB4E7800A2BDD6 /* User.m in Sources */,
+				9A6234031CFB4E7100A2BDD6 /* HYNApplicationAuditFillInController.m in Sources */,
+				9A6234161CFB4E7800A2BDD6 /* Course.m in Sources */,
+				9A62345E1CFB4E9A00A2BDD6 /* HYNAboutHeaderView.m in Sources */,
+				9A6233FF1CFB4E7100A2BDD6 /* HYNAboutTableViewController.m in Sources */,
+				9AF5E7281CA14BD60022CA85 /* AppDelegate.m in Sources */,
+				9A62346A1CFB4E9A00A2BDD6 /* HYNReceiptCell.m in Sources */,
+				9A62340B1CFB4E7100A2BDD6 /* HYNConfirmController.m in Sources */,
+				9A6234011CFB4E7100A2BDD6 /* HYNProductController.m in Sources */,
+				9A6234041CFB4E7100A2BDD6 /* HYNApplicationAuditTableViewController.m in Sources */,
+				9A6234101CFB4E7100A2BDD6 /* HYNTeacherController.m in Sources */,
+				9A62346C1CFB4E9A00A2BDD6 /* HYNReceiptHeaderView.m in Sources */,
+				9A62343B1CFB4E9300A2BDD6 /* NSString+Regex.m in Sources */,
+				9A6234661CFB4E9A00A2BDD6 /* HYNReceiptAuditHeaderView.m in Sources */,
+				9A6234701CFB4E9B00A2BDD6 /* HYNResultHeaderView.m in Sources */,
+				9A62340C1CFB4E7100A2BDD6 /* HYNDetailsController.m in Sources */,
+				9A6234081CFB4E7100A2BDD6 /* HYNReceiptAuditTableViewController.m in Sources */,
+				9A6234001CFB4E7100A2BDD6 /* HYNInstructionController.m in Sources */,
+				9A62343A1CFB4E9300A2BDD6 /* NSArray+Log.m in Sources */,
+				9A6234021CFB4E7100A2BDD6 /* HYNLogInViewController.m in Sources */,
+				9A6234091CFB4E7100A2BDD6 /* HYNNavigationController.m in Sources */,
+				9A6234621CFB4E9A00A2BDD6 /* HYNApplicationAuditHeaderView.m in Sources */,
+				9AF5E7251CA14BD60022CA85 /* main.m in Sources */,
+				9A62340D1CFB4E7100A2BDD6 /* HYNReceiptFillInController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AF5E7311CA14BD60022CA85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF5E7321CA14BD60022CA85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF5E7351CA14BD60022CA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AF5E7361CA14BD60022CA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF5E7381CA14BD60022CA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA9F970A40D6B1C2657461 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "掌上调课/URLPrefixHeader.pch";
+				INFOPLIST_FILE = "掌上调课/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyn.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		9AF5E7391CA14BD60022CA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6CA733E1DE2065043B2B9D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "掌上调课/URLPrefixHeader.pch";
+				INFOPLIST_FILE = "掌上调课/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyn.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF5E71B1CA14BD60022CA85 /* Build configuration list for PBXProject "掌上调课" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5E7351CA14BD60022CA85 /* Debug */,
+				9AF5E7361CA14BD60022CA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF5E7371CA14BD60022CA85 /* Build configuration list for PBXNativeTarget "掌上调课" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF5E7381CA14BD60022CA85 /* Debug */,
+				9AF5E7391CA14BD60022CA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF5E7181CA14BD60022CA85 /* Project object */;
+}

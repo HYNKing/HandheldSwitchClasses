@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="wAN-Km-V6J" customClass="HYNReceiptAuditCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wAN-Km-V6J" id="uET-dK-xra">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtS-I0-GpD">
+                        <rect key="frame" x="0.0" y="0.0" width="106" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70X-b1-QoN">
+                        <rect key="frame" x="106" y="0.5" width="1" height="43"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="nTH-8a-hYU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGa-4m-xbR">
+                        <rect key="frame" x="107" y="0.0" width="106" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BLp-kD-fMx">
+                        <rect key="frame" x="213" y="0.5" width="1" height="43"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geL-Gk-cUX">
+                        <rect key="frame" x="214" y="0.0" width="106" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="请审批">
+                            <attributedString key="attributedTitle"/>
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="receiptAuditCellButtonClick:" destination="wAN-Km-V6J" eventType="touchUpInside" id="mMk-X9-ERe"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UGa-4m-xbR" firstAttribute="centerY" secondItem="RtS-I0-GpD" secondAttribute="centerY" id="1Ny-f3-zlF"/>
+                    <constraint firstItem="RtS-I0-GpD" firstAttribute="top" secondItem="uET-dK-xra" secondAttribute="top" id="7qd-97-8Gw"/>
+                    <constraint firstItem="geL-Gk-cUX" firstAttribute="leading" secondItem="BLp-kD-fMx" secondAttribute="trailing" id="Jce-t8-UHd"/>
+                    <constraint firstItem="BLp-kD-fMx" firstAttribute="centerY" secondItem="70X-b1-QoN" secondAttribute="centerY" id="JtX-ee-EVw"/>
+                    <constraint firstItem="70X-b1-QoN" firstAttribute="top" secondItem="uET-dK-xra" secondAttribute="top" id="TXq-vT-Hno"/>
+                    <constraint firstItem="UGa-4m-xbR" firstAttribute="height" secondItem="RtS-I0-GpD" secondAttribute="height" id="Zz8-bL-zGn"/>
+                    <constraint firstItem="BLp-kD-fMx" firstAttribute="width" secondItem="70X-b1-QoN" secondAttribute="width" id="dda-w0-ygT"/>
+                    <constraint firstItem="geL-Gk-cUX" firstAttribute="height" secondItem="RtS-I0-GpD" secondAttribute="height" id="drZ-se-aoA"/>
+                    <constraint firstItem="RtS-I0-GpD" firstAttribute="leading" secondItem="uET-dK-xra" secondAttribute="leading" id="e9R-SP-7Pm"/>
+                    <constraint firstItem="BLp-kD-fMx" firstAttribute="height" secondItem="70X-b1-QoN" secondAttribute="height" id="eyh-gh-Nv0"/>
+                    <constraint firstItem="UGa-4m-xbR" firstAttribute="width" secondItem="RtS-I0-GpD" secondAttribute="width" id="fQ2-V0-Rhm"/>
+                    <constraint firstAttribute="trailing" secondItem="geL-Gk-cUX" secondAttribute="trailing" id="fk6-V9-1vJ"/>
+                    <constraint firstAttribute="bottom" secondItem="RtS-I0-GpD" secondAttribute="bottom" id="hR3-r2-9Hx"/>
+                    <constraint firstAttribute="bottom" secondItem="70X-b1-QoN" secondAttribute="bottom" id="hVq-Re-QUQ"/>
+                    <constraint firstItem="70X-b1-QoN" firstAttribute="leading" secondItem="RtS-I0-GpD" secondAttribute="trailing" id="hZz-hm-ytA"/>
+                    <constraint firstItem="geL-Gk-cUX" firstAttribute="width" secondItem="RtS-I0-GpD" secondAttribute="width" id="iBy-cj-O9f"/>
+                    <constraint firstItem="BLp-kD-fMx" firstAttribute="leading" secondItem="UGa-4m-xbR" secondAttribute="trailing" id="jOY-WO-GKB"/>
+                    <constraint firstItem="UGa-4m-xbR" firstAttribute="leading" secondItem="70X-b1-QoN" secondAttribute="trailing" id="ohL-Bq-HYx"/>
+                    <constraint firstItem="geL-Gk-cUX" firstAttribute="centerY" secondItem="RtS-I0-GpD" secondAttribute="centerY" id="skZ-Is-WOu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="bjmcLabel" destination="UGa-4m-xbR" id="lzf-ep-FH6"/>
+                <outlet property="sqjsLabel" destination="RtS-I0-GpD" id="Pdq-mi-6QF"/>
+            </connections>
+            <point key="canvasLocation" x="250" y="236"/>
+        </tableViewCell>
+    </objects>
+</document>

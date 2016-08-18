@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>第1周</string>
+		<string>第2周</string>
+		<string>第3周</string>
+		<string>第4周</string>
+		<string>第5周</string>
+		<string>第6周</string>
+		<string>第7周</string>
+		<string>第8周</string>
+		<string>第9周</string>
+		<string>第10周</string>
+		<string>第11周</string>
+		<string>第12周</string>
+		<string>第13周</string>
+		<string>第14周</string>
+		<string>第15周</string>
+		<string>第16周</string>
+		<string>第17周</string>
+		<string>第18周</string>
+		<string>第19周</string>
+		<string>第20周</string>
+	</array>
+	<array>
+		<string>周一</string>
+		<string>周二</string>
+		<string>周三</string>
+		<string>周四</string>
+		<string>周五</string>
+		<string>周六</string>
+		<string>周日</string>
+	</array>
+	<array>
+		<string>1-2节</string>
+		<string>3-4节</string>
+		<string>5-6节</string>
+		<string>7-8节</string>
+		<string>9-10节</string>
+	</array>
+</array>
+</plist>

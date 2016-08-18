@@ -1,0 +1,70 @@
+//
+//  URLPrefixHeader.pch
+//  掌上调课
+//
+//  Created by 黄亚男 on 16/5/19.
+//  Copyright © 2016年 黄亚男. All rights reserved.
+
+
+#define kAccountKey @"accountKey"
+
+#define kPasswordKey @"passwordKey"
+
+#define kRemPasswordKey @"remPasswordKey"
+
+#define kAutoLogInKey @"autoLogInKey"
+
+
+#define kuserFilePath [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent:@"user.data"]
+/**
+ *  基地址
+ */
+#define kBaseUrl @"http://202.196.192.25"
+/**
+ *  首页
+ */
+#define kHomeUrl @"/tk/default.aspx"
+/**
+ *  用户登录
+ */
+#define kLoginUrl @"/tk/login.aspx"
+/**
+ *  调课提交
+ */
+#define kTKTJUrl @"/tk/start.aspx"
+/**
+ *  调课确认申请
+ */
+#define kTKQRUrl @"/tk/confirm.aspx"
+/**
+ *  调课结果
+ */
+#define kResultUrl @"/tk/result.aspx"
+/**
+ *  补课回执
+ */
+#define kBKHZUrl @"/tk/bkhz.aspx"
+/**
+ *  教师信息
+ */
+#define kTeacherUrl @"/tk/left.aspx"
+/**
+ *  调课审核
+ */
+#define kTKSHUrl @"/tk/tksh.aspx"
+/**
+ *  补课审核
+ */
+#define kBKSHUrl @"/tk/bksh.aspx"
+/**
+ *  管理员信息
+ */
+#define kManagerUrl @"/tk/shleft.aspx"
+/**
+ * 更改密码
+ */
+#define kChangePasswordUrl @"/tk/shchangepassword.aspx"
+/**
+ *  用户退出
+ */
+#define kLogoutUrl @"/tk/logout.aspx"
